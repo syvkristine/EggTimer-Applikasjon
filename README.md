@@ -14,7 +14,7 @@ scratch.
 Download and install the project on your computer using the [git cli tool](https://git-scm.com/downloads)
 
 ```bash
-git clone https://github.io/...
+git clone https://github.com/interaksjonsdesign/Electron-Scaffolding-Project
 ```
 
 Use npm to install all the node packages
@@ -145,7 +145,7 @@ Add the build tool ["electron-packager"](https://www.npmjs.com/package/electron-
 
 ```bash
 mkdir app_icons
-curl linkToIcon > app_icons/Icon.icns
+curl https://github.com/interaksjonsdesign/Electron-Scaffolding-Project/app_icons/Icon.icns > app_icons/Icon.icns
 npm install --save electron-packager
 ```
 
