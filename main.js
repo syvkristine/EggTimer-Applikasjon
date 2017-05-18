@@ -1,6 +1,11 @@
-var {app, BrowserWindow} = require('electron')
+// Require Electron and Node.js modules
+var electron = require('electron');
+var app = electron.app;
+var BrowserWindow = electron.BrowserWindow;
+
 var path = require('path')
 var url = require('url')
+
 
 // Global reference of the window object
 var win
