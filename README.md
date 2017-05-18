@@ -139,16 +139,20 @@ electron .
 ```
 Hit [Ctrl+C] to close the project.
 
-**6\.** Build the app
-Add the build tool ["electron-packager"](https://www.npmjs.com/package/electron-packager)
-(you may need to run the npm command as sudo)
+**6\.** Add the Icon
+Download the icon file from GitHub: 
+[https://github.com/interaksjonsdesign/Electron-Scaffolding-Project/raw/master/app_icons/Icon.icns](https://github.com/interaksjonsdesign/Electron-Scaffolding-Project/raw/master/app_icons/Icon.icns)
+
+Create an icon folder.
 
 ```bash
 mkdir app_icons
 ```
-Download the icon from GitHub: [https://github.com/interaksjonsdesign/Electron-Scaffolding-Project/raw/master/app_icons/Icon.icns](https://github.com/interaksjonsdesign/Electron-Scaffolding-Project/raw/master/app_icons/Icon.icns)
+And add the Icon.icns file to the app_icons folder.
 
-Install the electron-packager module.
+**7\.** Build the app
+Add the build tool ["electron-packager"](https://www.npmjs.com/package/electron-packager)
+(you may need to run the npm command as sudo)
 
 ```bash
 npm install --save electron-packager
