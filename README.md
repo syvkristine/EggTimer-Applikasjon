@@ -145,7 +145,7 @@ Add the build tool ["electron-packager"](https://www.npmjs.com/package/electron-
 
 ```bash
 mkdir app_icons
-curl https://github.com/interaksjonsdesign/Electron-Scaffolding-Project/app_icons/Icon.icns > app_icons/Icon.icns
+curl -# https://github.com/interaksjonsdesign/Electron-Scaffolding-Project/raw/master/app_icons/Icon.icns > app_icons/Icon.icns
 npm install --save electron-packager
 ```
 
