@@ -1,4 +1,4 @@
-# Simple Electron App
+# Electron Scaffolding App
 
 This projects contains a simple Electron App scaffolding project.
 
