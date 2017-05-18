@@ -29,7 +29,7 @@ npm install
 electron .
 ```
 
-## Build the app
+## Package the app
 
 ```bash
 electron-packager . --icon "app_icons/Icon.icns" --overwrite
