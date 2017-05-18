@@ -40,6 +40,7 @@ Your app will be in a folder called simple-electron-app-darwin-x64
 ## Build steps
 To build your own versjon of this project please follow these steps:
 
+
 **1\.** Create the main project
 
 ```bash
@@ -47,6 +48,7 @@ npm init
 npm install --save electron
 touch main.js
 ```
+
 
 **2\.** Add following code to the main.js file
 
@@ -108,6 +110,7 @@ app.on('activate', function(){
 
 ```
 
+
 **3\.** Create app content
 
 ```bash
@@ -116,6 +119,7 @@ cd www
 touch index.html
 cd ..
 ```
+
 
 **4\.** Add some content to the index.html file
 
@@ -132,6 +136,7 @@ cd ..
 </html>
 ```
 
+
 **5\.** Run the project
 
 ```bash
@@ -139,7 +144,9 @@ electron .
 ```
 Hit [Ctrl+C] to close the project.
 
+
 **6\.** Add the Icon
+
 Download the icon file from GitHub: 
 [https://github.com/interaksjonsdesign/Electron-Scaffolding-Project/raw/master/app_icons/Icon.icns](https://github.com/interaksjonsdesign/Electron-Scaffolding-Project/raw/master/app_icons/Icon.icns)
 
@@ -150,7 +157,9 @@ mkdir app_icons
 ```
 And add the Icon.icns file to the app_icons folder.
 
+
 **7\.** Build the app
+
 Add the build tool ["electron-packager"](https://www.npmjs.com/package/electron-packager)
 (you may need to run the npm command as sudo)
 
@@ -165,5 +174,8 @@ electron-packager . --icon "app_icons/Icon.icns" --overwrite
 ```
 Your app will be in a folder called simple-electron-app-darwin-x64
 
+
 ## Note
 The icon used in this example is created with the free mac app [Image2Icon](http://www.img2icnsapp.com/)
+
+
