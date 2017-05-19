@@ -14,14 +14,14 @@ scratch.
 Download and install the project on your computer using the [git cli tool](https://git-scm.com/downloads)
 
 ```bash
-git clone https://github.com/interaksjonsdesign/electron-scaffolding-project
-cd electron-scaffolding-project
+git clone https://github.com/interaksjonsdesign/electron-scaffolding-project.git
+cd electron-scaffolding-project/
 ```
 
 Use npm to install all the node packages
 
 ```bash
-npm install
+npm install -g electron
 npm install -g electron-packager
 ```
 
