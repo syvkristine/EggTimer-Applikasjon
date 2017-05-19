@@ -18,7 +18,7 @@ git clone https://github.com/interaksjonsdesign/electron-scaffolding-project.git
 cd electron-scaffolding-project/
 ```
 
-Use npm to install all the node packages
+Use npm to install electron and  electron-packager globalt (-g)
 
 ```bash
 npm install -g electron
