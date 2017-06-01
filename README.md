@@ -33,6 +33,12 @@ electron .
 
 ## Package the app
 
+Install electron in your project folder.
+
+```bash
+npm install --save electron
+```
+
 ```bash
 electron-packager . --icon "app_icons/Icon.icns" --overwrite
 ```
