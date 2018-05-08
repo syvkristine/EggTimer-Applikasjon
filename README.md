@@ -30,6 +30,12 @@ npm start
 
 ## Package the app
 
+Install electron in your project folder.
+
+```bash
+npm install --save electron
+```
+
 ```bash
 npm run pack
 ```
