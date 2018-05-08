@@ -6,9 +6,6 @@ The code is based on the official [electron quick start
 demo](https://electron.atom.io/docs/tutorial/quick-start/).
 
 
-Follow the "Build steps" guide to create your own electron project from
-scratch.
-
 ## Download & install
 
 Download and install the project on your computer using the [git cli tool](https://git-scm.com/downloads)
@@ -29,12 +26,6 @@ npm start
 ```
 
 ## Package the app
-
-Install electron in your project folder.
-
-```bash
-npm install --save electron
-```
 
 ```bash
 npm run pack
