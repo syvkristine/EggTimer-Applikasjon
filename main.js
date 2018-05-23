@@ -19,6 +19,9 @@ function createWindow() {
         resizable: false
     })
 
+    //åpner devtools/inspect i eget vindu
+    win.webContents.openDevTools()
+
     // and load the index.html of the app.
     win.loadURL(url.format({
         pathname: path.join(__dirname, 'www/index.html'),
