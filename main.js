@@ -19,8 +19,6 @@ function createWindow() {
         resizable: false
     })
 
-    //åpner devtools/inspect i eget vindu
-    win.webContents.openDevTools()
 
     // and load the index.html of the app.
     win.loadURL(url.format({
@@ -30,7 +28,7 @@ function createWindow() {
     }));
 
     // Open the DevTools.
-    //win.webContents.openDevTools()
+    win.webContents.openDevTools()
 
     // Emitted when the window is closed.
     win.on('closed', function () {
