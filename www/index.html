@@ -3,27 +3,25 @@
 	<head>
 		<meta charset="utf-8">
 		<link href="style.css" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Comfortaa:300,400,700" rel="stylesheet">
 		<title>Egg Timer</title>
 	</head>
 	<body>
 		<h1>Egg Timer</h1>
-
-	<div class="kokingchoise">
+	<div class="eggWrapper">
 		<p>How do you like your eggs ?</p>
-		<div id="soft" class="eggWrapper">
+		<div id="soft" class="softEgg kokingchoise">
 			<img src="svg/soft.svg" alt="softEgg">
 		</div>
-		<div id="medium" class="eggWrapper">
+		<div id="medium" class="mediumEgg kokingchoise">
 			<img src="svg/medium.svg" alt="mediumEgg">
 		</div>
-		<div id="hard" class="eggWrapper">
+		<div id="hard" class="hardEgg kokingchoise">
 			<img src="svg/hard.svg" alt="hardEgg">
 		</div>
 	</div>
-
-		<button>START</button>
-
+	<span class="time">05:00</span>
+	<button class="startBt">START</button>
 		<script src="script.js"></script>
 	</body>
 </html>
