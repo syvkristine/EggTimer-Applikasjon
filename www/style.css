@@ -1,0 +1,11 @@
+* {
+
+    box-sizing: border-box;
+}
+
+body {
+
+    background-color: #DDBF6F;
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+}
