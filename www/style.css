@@ -4,62 +4,41 @@
 }
 
 body {
-
     background-color: #DDBF6F;
     text-align: center;
     font-family: 'Comfortaa', cursive;
     color: white;
     font-weight: 300;
 }
-
 h1 {
     font-size: 20px;
     font-weight: 300;
     padding-top: 50px;
 }
-
 .eggWrapper {
-
     padding-top: 115px;
     padding-bottom: 90px;
 }
-
 p {
-
     padding-bottom: 20px;
 }
-
 .softEgg {
-
     padding-right: 100px;
 }
-
 .hardEgg {
-
     padding-left: 100px;
 }
-
-
-
 .kokingchoise {
-
     display: inline;
-    
 }
-
 .kokingchoise:hover {
-
     cursor: pointer;
 }
-
-
 .time {
-
     font-size: 65px;
 
     padding-bottom: 115px;
     display: block;
-    
 }
 
 .startBt {
@@ -72,10 +51,7 @@ p {
     border-radius: 50px;
     width: 184px;
     height: 63px;
-    
-
 }
-
 .startBt:hover {
     cursor: pointer;
 }
