@@ -17,7 +17,7 @@ function createWindow() {
         width: 800,
         height: 800,
         resizable: false,
-        //titleBarStyle: 'hidden'
+        titleBarStyle: 'hidden'
     })
 
 
@@ -29,7 +29,7 @@ function createWindow() {
     }));
 
     // Open the DevTools.
-    win.webContents.openDevTools()
+    //win.webContents.openDevTools()
 
     // Emitted when the window is closed.
     win.on('closed', function () {
