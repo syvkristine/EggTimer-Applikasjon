@@ -1,3 +1,5 @@
 .DS_store
 node_modules
 *-darwin-x64
+package
+electron-scaffolding-project-*
