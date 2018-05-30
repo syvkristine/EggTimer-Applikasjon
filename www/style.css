@@ -88,7 +88,7 @@ h1 {
 
 .time {
     font-size: 65px;
-
+    font-family: monospace;
     padding-bottom: 115px;
     display: block;
 }
