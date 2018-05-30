@@ -7,6 +7,7 @@ var path = require('path');
 var url = require('url');
 
 
+
 // Global reference of the window object
 var win;
 
@@ -18,6 +19,7 @@ function createWindow() {
         height: 800,
         resizable: false,
         titleBarStyle: 'hidden'
+
     })
 
 
@@ -29,7 +31,7 @@ function createWindow() {
     }));
 
     // Open the DevTools.
-    //win.webContents.openDevTools()
+    win.webContents.openDevTools()
 
     // Emitted when the window is closed.
     win.on('closed', function () {
