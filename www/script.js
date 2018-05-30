@@ -95,18 +95,7 @@ function handleStartClick (event) {
 
 
     console.log ('start klokken');
-    //legg til html 
-    //var intervalObj = setInterval(handleInterval, 1000)
-    //nedtellingsfunksjonen
-    /*function handleInterval() {
-        if (duration.min == 0 && duration.sec == 0){
-            //clearInterval(intervalObj); 
-            stopTiden();
-        } else {
-            countDown();
-            showDuration();
-        }
-    }*/
+  
 }
 
 function stopTiden (){

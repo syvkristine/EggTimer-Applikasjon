@@ -16,7 +16,7 @@ var Tray;
 
 function createWindow() {
 
-    Tray = new Tray(path.join(__dirname, 'app_icons/eggIcon.png'));
+   Tray = new Tray(path.join(__dirname, 'app_icons/eggIcon.png'));
     // Create the browser window.
     win = new BrowserWindow({
         
@@ -36,7 +36,7 @@ function createWindow() {
     }));
 
     // Open the DevTools.
-    win.webContents.openDevTools()
+    //win.webContents.openDevTools()
 
     // Emitted when the window is closed.
     win.on('closed', function () {
