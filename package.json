@@ -1,5 +1,6 @@
 {
   "name": "eggtimer",
+  "productName": "Egg Timer",
   "version": "0.1.0",
   "description": "Electron scaffolding Project",
   "main": "main.js",
@@ -9,7 +10,7 @@
   },
   "scripts": {
     "start": "electron .",
-    "pack": "electron-packager . --icon \"app_icons/egg_icon.icns\" --overwrite"
+    "pack": "electron-packager . --icon \"app_icons/egg_icon.icns\" --overwrite --out=relase"
   },
   "author": "Kristine Fossum",
   "license": "MIT",
