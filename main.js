@@ -16,7 +16,7 @@ var Tray;
 
 function createWindow() {
 
-    Tray = new Tray(path.join(__dirname, 'app_icons/64x64.png'));
+    Tray = new Tray(path.join(__dirname, 'app_icons/eggIcon.png'));
     // Create the browser window.
     win = new BrowserWindow({
         
