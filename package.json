@@ -9,7 +9,7 @@
   },
   "scripts": {
     "start": "electron .",
-    "pack": "electron-packager . --icon \"app_icons/Eggicon.icns\" --overwrite"
+    "pack": "electron-packager . --icon \"app_icons/Icon.icns\" --overwrite"
   },
   "author": "Kristine Fossum",
   "license": "MIT",
