@@ -1,6 +1,7 @@
 // Require Electron and Node.js modules
 var electron = require('electron');
 var app = electron.app;
+var Tray = electron.Tray;
 var BrowserWindow = electron.BrowserWindow;
 
 var path = require('path');
@@ -10,13 +11,15 @@ var url = require('url');
 
 // Global reference of the window object
 var win;
+var Tray;
 
 
 function createWindow() {
 
-
+    Tray = new Tray(path.join(__dirname, 'app_icons/64x64.png'));
     // Create the browser window.
     win = new BrowserWindow({
+        
         width: 800,
         height: 800,
         resizable: false,
