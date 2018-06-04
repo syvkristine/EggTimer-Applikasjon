@@ -2,6 +2,8 @@
 var electron = require('electron');
 var app = electron.app;
 var Tray = electron.Tray;
+//var notificasjon = electron.notificasjon;
+//var ipcMain = electron.ipcMain;
 var BrowserWindow = electron.BrowserWindow;
 
 var path = require('path');
@@ -12,6 +14,7 @@ var url = require('url');
 // Global reference of the window object
 var win;
 var Tray;
+//var popup;
 
 
 function createWindow() {
@@ -26,6 +29,14 @@ function createWindow() {
         titleBarStyle: 'hidden'
 
     })
+
+    /*ipcMain.on('countDone', function(event, arg){
+        popup = new notificasjon ({
+            title: "Your eggs is done"
+        }); 
+        popup.show();
+
+    });*/
 
 
     // and load the index.html of the app.

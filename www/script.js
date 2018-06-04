@@ -1,3 +1,5 @@
+//import { ipcRenderer } from "electron";
+//const ipcRenderer = electron.ipcRenderer;
 
 duration = {}
 softmin = 6;
@@ -98,6 +100,8 @@ function handleStartClick (event) {
   
 }
 
+
+
 function stopTiden (){
     clearInterval(intervalObj); 
 }
@@ -149,6 +153,11 @@ function showDuration(){
 
 
 }
+
+
+// denne kaller på den i main men denne må ligge inni en funksjon som blir kalt på 
+//når timer er ferdig 
+//ipcRenderer.send("countDone", Text);
 
 
 
