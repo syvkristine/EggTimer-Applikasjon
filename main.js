@@ -14,7 +14,6 @@ var url = require('url');
 // Global reference of the window object
 var win;
 var Tray;
-//var popup;
 
 
 function createWindow() {
