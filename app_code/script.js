@@ -1,5 +1,4 @@
-//import { ipcRenderer } from "electron";
-//const ipcRenderer = electron.ipcRenderer;
+
 
 duration = {}
 softmin = 6;
@@ -64,7 +63,6 @@ function handleMediumEggClick (event){
 function handleHardEggClick (event){
 
     console.log ('hard egg er cliket på');
-    //legg til html 
     duration.min = 10;
     resetDurationMin = duration.min;
     showDuration();
@@ -80,7 +78,6 @@ var intervalObj;
 
 function handleInterval() {
     if (duration.min == 0 && duration.sec == 0){
-        //clearInterval(intervalObj); 
         stopTiden();
     } else {
         countDown();
@@ -153,12 +150,3 @@ function showDuration(){
 
 
 }
-
-
-// denne kaller på den i main men denne må ligge inni en funksjon som blir kalt på 
-//når timer er ferdig 
-//ipcRenderer.send("countDone", Text);
-
-
-
-
